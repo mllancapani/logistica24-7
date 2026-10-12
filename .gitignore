@@ -1,0 +1,13 @@
+.env
+storage/logs/*
+!storage/logs/.gitkeep
+public/uploads/*
+!public/uploads/.htaccess
+!public/uploads/.gitkeep
+
+# Archivos de trabajo locales
+*.zip
+*.tar.gz
+bosquejo/
+storage/backups/*
+!storage/backups/.gitkeep

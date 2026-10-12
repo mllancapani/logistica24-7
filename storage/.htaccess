@@ -1,0 +1,2 @@
+# Protección: si por error esta carpeta queda dentro del directorio web, se bloquea todo.
+Require all denied
