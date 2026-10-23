@@ -42,7 +42,7 @@ final class Http
         header('X-Frame-Options: SAMEORIGIN');
         header('Referrer-Policy: strict-origin-when-cross-origin');
         header('Permissions-Policy: camera=(), microphone=(), geolocation=()');
-        header("Content-Security-Policy: default-src 'self'; img-src 'self' data:; "
+        header("Content-Security-Policy: default-src 'self'; img-src 'self' data: blob:; "
             . "style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
             . "script-src 'self'; frame-src https://www.google.com https://maps.google.com; "
             . "form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'");
